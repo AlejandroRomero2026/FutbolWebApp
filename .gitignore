@@ -16,3 +16,4 @@ desktop.ini
 # Archivos internos del Studio
 IdeSrc/*.loc
 *.sqlite
+*.log
