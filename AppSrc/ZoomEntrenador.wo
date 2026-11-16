@@ -7,7 +7,7 @@ Use cWebPanel.pkg
 Use cWebMenuGroup.pkg
 Use cWebMenuItem.pkg
 Use cWebForm.pkg
-Use equipo.Nombre
+Use SelectEquipo.wo
 
 Use cligaDataDictionary.dd
 Use cequipoDataDictionary.dd
@@ -81,7 +81,7 @@ Object oZoomEntrenador is a cWebView
             Set psLabel to "Nombre"
             Set pbPromptButton to True
 
-            WebRegisterPath ntNavigateForward SelectEquipo.wo
+            WebRegisterPath ntNavigateForward oSelectEquipo
 
             Procedure OnPrompt
                 Send NavigatePath
