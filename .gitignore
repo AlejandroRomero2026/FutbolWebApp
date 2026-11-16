@@ -1,0 +1,18 @@
+# Compilados y temporales de DataFlex
+Programs/*.exe
+Programs/*.dbg
+Programs/*.prp
+*.err
+*.prn
+*.bak
+*.dep
+*.lock
+*.~*
+
+# Sistema
+Thumbs.db
+desktop.ini
+
+# Archivos internos del Studio
+IdeSrc/*.loc
+*.sqlite
